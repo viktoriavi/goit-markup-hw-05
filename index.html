@@ -588,7 +588,7 @@
         <p class="modal-title">Leave your contacts and we will call you back</p>
         <form class="modal-form">
           <div class="modal-input-container">
-            <label class="modal-label">Name</label>
+            <label class="modal-label" for="user-name">Name</label>
             <div class="modal-input-wrapper">
               <input
                 class="modal-input"
@@ -603,7 +603,7 @@
             </div>
           </div>
           <div class="modal-input-container">
-            <label class="modal-label">Phone</label>
+            <label class="modal-label" for="user-phone">Phone</label>
             <div class="modal-input-wrapper">
               <input
                 class="modal-input"
@@ -618,7 +618,7 @@
             </div>
           </div>
           <div class="modal-input-container">
-            <label class="modal-label">Email</label>
+            <label class="modal-label" for="user-email">Email</label>
             <div class="modal-input-wrapper">
               <input
                 class="modal-input"
@@ -632,8 +632,8 @@
               </svg>
             </div>
           </div>
-          <div class="modal-input-container">
-            <label class="modal-label">Comment</label>
+          <div class="modal-textarea-container">
+            <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
               id="user-comment"
@@ -642,10 +642,11 @@
             ></textarea>
           </div>
           <div class="modal-input-container">
-            <label class="modal-checkbox-label">
+            <label class="modal-checkbox-label" for="user-privacy">
               <input
                 class="modal-checkbox"
                 type="checkbox"
+                id="user-privacy"
                 name="user-privacy"
                 required
               />

@@ -594,12 +594,6 @@ img {
 .modal-close-btn:focus .modal-close-icon {
   fill: #ffffff;
 }
-.modal-form {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 408px;
-}
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -609,9 +603,18 @@ img {
   margin-bottom: 16px;
   text-align: center;
 }
-.modal-label {
+.modal-form {
   display: flex;
   flex-direction: column;
+  gap: 8px;
+  width: 408px;
+}
+.modal-input-container {
+  margin-bottom: 8px;
+}
+.modal-label {
+  display: block;
+  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -647,10 +650,19 @@ img {
 .modal-input:focus + .modal-input-icon {
   fill: var(--ocean);
 }
+.modal-textarea-container {
+  margin-bottom: 16px;
+}
 .modal-textarea {
+  width: 100%;
   height: 120px;
   resize: none;
-  font-size: 14px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+  outline: transparent;
   padding: 8px 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
