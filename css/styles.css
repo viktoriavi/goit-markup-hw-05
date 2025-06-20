@@ -585,7 +585,7 @@ img {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   background-color: var(--ocean);
-  border-color: transparent;
+  border: none;
 }
 .modal-close-icon {
   fill: var(--navy-blue);
