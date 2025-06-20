@@ -694,7 +694,6 @@ img {
   appearance: none;
   position: absolute;
   opacity: 0;
-  pointer-events: none;
 }
 .modal-custom-checkbox {
   display: inline-flex;
@@ -710,9 +709,9 @@ img {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-checkbox:checked + .modal-checkbox-label .modal-custom-checkbox {
+.modal-checkbox:checked ~ .modal-checkbox-label .modal-custom-checkbox {
   background-color: #404bbf;
-  border-color: none;
+  border: none;
   fill: #ffffff;
 }
 .check-icon {
