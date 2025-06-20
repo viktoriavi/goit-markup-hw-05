@@ -586,6 +586,7 @@ img {
 .modal-close-btn:focus {
   background-color: var(--ocean);
   border: none;
+  fill: #fff;
 }
 .modal-close-icon {
   fill: var(--navy-blue);
